@@ -6,8 +6,9 @@ module.exports = {
     password: "secret",
     database: "projeto3",
     define: {
-      timestamps: true,
-      underscore: true,
+      timestamps: true, //  para incluir o created_at e updated_ad
+      underscored: true, // modelo snackcase
     },
   },
+  production: {},
 };
